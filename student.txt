@@ -1,0 +1,10 @@
+1 sai 79.00
+2 sashi 88.00
+3 varun 99.00
+4 teja 69.00
+5 hruthik 80.00
+6 rishikesh 128.00
+7 nandan 108.00
+8 sumith 134.00
+9 ram 120.00
+10 kishore 100.00
