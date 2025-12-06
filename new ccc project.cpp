@@ -285,7 +285,6 @@ void updatestudent(void) {
             printf("New Marks: ");
             scanf("%d", &s.marks);
 
-            /* Move file pointer back by one Student record */
             fseek(fp, -(long)sizeof(Student), SEEK_CUR);
             if (fwrite(&s, sizeof(Student), 1, fp) == 1) {
                 printf("\n[?] Record updated successfully.\n");
@@ -352,8 +351,6 @@ void deletestudent(void) {
     pressEnterToContinue();
 }
 
-/* ================= OTHER ROLES ================= */
-
 void userMenu(void) {
     printf("\n[USER MENU]\n");
     printLine('-', 30);
@@ -377,4 +374,5 @@ void staffMenu(void) {
     printf("Staff operations will be added in future versions.\n");
     printLine('-', 30);
 }
+
 
